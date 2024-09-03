@@ -6,10 +6,11 @@ using TMPro;
 
 public class CarregarCena : MonoBehaviour
 {
+    public string cenaParaCarregar;
     // Start is called before the first frame update
     void Start()
     {
-        
+        SceneManager.LoadScene(cenaParaCarregar);
     }
 
     // Update is called once per frame
